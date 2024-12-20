@@ -1,0 +1,44 @@
+#outline {
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#calc-body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#display-screen {
+    border-style: solid;
+    min-height: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+#control-center {
+    display: flex;
+}
+
+#fourth-column {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#clear {
+    flex: 2
+}
+
+#equals {
+    flex: 2
+}
+
+#zero {
+    flex: 1;
+}
